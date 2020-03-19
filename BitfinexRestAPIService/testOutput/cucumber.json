@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-19T09:46:03.082Z",
+        "line": 4,
+        "name": "Get different data based on ticker names test scenario",
+        "description": "",
+        "id": "get-different-data-based-on-ticker-names;get-different-data-based-on-ticker-names-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1049000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "GetBase URL for Get Operations",
+            "match": {
+              "location": "com.hcl.ing.stepdefination.GetDataAPI.getbase_URL_for_Get_Operations()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227845000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Send the Request for Get Operations",
+            "match": {
+              "location": "com.hcl.ing.stepdefination.GetDataAPI.send_the_Request_for_Get_Operations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the Get Operations",
+            "match": {
+              "location": "com.hcl.ing.stepdefination.GetDataAPI.validate_the_Get_Operations()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@APITest"
+          }
+        ]
+      }
+    ],
+    "name": "Get different data based on ticker names",
+    "description": "",
+    "id": "get-different-data-based-on-ticker-names",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/hcl/ing/feature/GetData.feature",
+    "tags": []
+  }
+]
